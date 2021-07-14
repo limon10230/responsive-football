@@ -1,10 +1,24 @@
 /* font style  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: rgba(180, 185, 185, 0.938);
 }
 /* Heading Style  */
+
+.nav{
+    background-color: gray;
+   padding: 20px;
+   text-align: end;
+   
+}
+.nav .search-bar{
+    margin-right: 100px;
+    
+}
+/* Main Style  */
 .heading-title h1{
     width: 485px;
     height: 230px;
@@ -18,10 +32,14 @@ body{
     color:white; 
     background-color: 
     #E02C6D;
-    margin-top: 27px;
     margin-left: 156px;
-    padding: 5px 40px;
+    padding: 10px 40px;
     font-weight: 700;
+    border-radius: 10px;
+    
+}
+.button{
+    margin-bottom: 100px;
     
 }
 .banner img{
@@ -43,6 +61,7 @@ body{
   .players{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 30px;
       display: flex;
       justify-content: center;
 
@@ -72,13 +91,51 @@ body{
     margin: 10px 15px 33px 15px;
     text-align: justify;
   }
-  
+  /* Highlights */
+  .highlights-info{
+    display: flex;
+    justify-content: center;
+  }
+  .highlights{
+     
+    width: 469px;
+    height: 287px;
+ 
+      border-radius: 10px;
+      margin-top: 246px;
+  }
+  .highlights h2{
+    margin: 16px 15px 10px 15px;
+    font-size: 28px;
+  }
+  .highlights p{
+    width: 300px;
+    height: 154px;
+    font-size: 16px;
+    margin: 10px 15px 33px 15px;
+    text-align: justify;
+  }
+  .highlights-image img{
+    width: 567px;
+    height: 427px;
+    margin-top: 165px;
+    margin-left: 66px;
+    margin-right: 156px;
+  }
     /* footer  */
-    .logo {
-        display: flex;
-        justify-content: center;
+    .logo img {
         width: 483.87px;
         height: 110px;
-       position: static;
-
+    }
+    .footer-info{
+        margin-top: 100px;
+        display: block;
+        text-align: center;
+    }
+    
+    
+    
+    footer p{
+        font-size: 18px;
+        
     }
